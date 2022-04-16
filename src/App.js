@@ -25,27 +25,3 @@ function App() {
 }
 
 export default App;
-
-// // для передачи состояния в redux
-// const mapStateToProps = (state) => {
-//   return {
-//     items: state.pizzas.items,
-//   };
-// };
-
-// const mapDispathToProps = (dispath) => {
-//   return {
-//     setPizzas: (items) => dispath(setPizzasAction(items)),
-//   };
-// };
-
-// export default connect(mapStateToProps, mapDispathToProps)(App);
-// //<Route path="/cart" element={<Cart />} />
-
-//const [pizzas, setPizzas] = React.useState([]);
-
-// React.useEffect(() => {
-//   fetch('http://localhost:3000/db.json')
-//     .then((resp) => resp.json())
-//     .then((json) => setPizzas(json.pizzas));
-// }, []);
